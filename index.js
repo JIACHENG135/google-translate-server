@@ -39,7 +39,7 @@ app.get("/", function (req, res) {
     .catch((resp) => res.status(400).json(resp) && log(req, text, 400));
 });
 
-app.listen(port, function () {
+app.listen(process.env.PORT||port, function () {
   console.log(
     "\n   ___ _____   ___\n" +
       "  / __|_   _| / __| ___ _ ___ _____ _ _\n" +
