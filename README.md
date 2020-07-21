@@ -7,6 +7,7 @@ A express.js server wrapper for [google-translate-cn-api
 
 Use Google Translate API **WITHOUT a Goole account**!
 
+Did deploy to heroku
 ## Features
 
 - **Updated**, use Google Translate Web API;
